@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript">
+            function convertToCelcius(temp) {
+                return ((temp-32) * 5 / 9);
+            }
+            function convertToFahrenheit(temp) {
+                return (temp * 9 / 5 - 32);
+            }
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("p").hide();
+                });
+            });
+        </script>
+        <script type="text/css">
+            .simpleText {color:black;font-family: arial;}
+        </script>
+    </head>
+    <body>
+        <div>
+            <div style="wid;margin-left: auto; margin-right: auto ;">
+            <h1>Convert Temperatures</h1><br/>
+            </div>
+        </div>
+    </body>
+</html>
